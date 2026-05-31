@@ -23,7 +23,7 @@ on:
         type: string
       bundle_id:
         description: "Modify the bundle ID"
-        default: "com.google.ios.youtube"
+        default: "com.duong.ios.youtube"
         required: true
         type: string
       app_name:
@@ -38,7 +38,7 @@ on:
         type: string
       upload_artifact:
         description: "Upload IPA as artifact"
-        default: false
+        default: true
         required: false
         type: boolean
       create_release:
